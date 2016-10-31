@@ -6,7 +6,7 @@
 	<p>For example</p>
 	<ul class="list-group">
 		<li class="list-group-item">
-			<h4>Binding our Componentr and View</h4>
+			<h4>Binding our Component and View</h4>
 			<pre><code class="language-html" prism>
 &lt;input ng-model="component.name" /&gt;
 &lt;div&gt;
@@ -36,8 +36,8 @@
 				<li class="list-group-item">
 					<span class="challenge">Angular component allow you to create properties on the fly try creating an input that is bound using ng-model to component.somethingOfYourChoice. Then render what you type into the input field by binding it with the double curlies</span>
 					<div class="answer">
-						<!--Your HTML input Here-->
-						{{<!--Your Code Here-->}}
+						<input type="text" ng-model="component.exercise">
+						<h1>I'm done if this says "{{component.exercise}}"</h1>
 					</div>
 				</li>
 			</ul>

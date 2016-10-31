@@ -6,7 +6,8 @@
     })
 
   function BindingsController () {
-    this.bindingsStatus = 'Working'
-    this.name = 'Please enter your Name'
+    this.bindingsStatus = 'Working';
+    this.name = 'Please enter your Name';
+    this.exercise = 'Get this to render'
   }
 }())
